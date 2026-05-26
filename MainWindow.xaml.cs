@@ -115,7 +115,7 @@ namespace part
 
                 if (userName != "")
                 {
-                    return "Welcome back, " + userName ;
+                    return "Welcome back, " + userName ; 
                 }
 
                 return "Hello! How can I help you today?";
