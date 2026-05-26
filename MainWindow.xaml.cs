@@ -164,6 +164,7 @@ namespace part
                 false);
         }
 
+
         private void BtnBrowsing_Click(object sender, RoutedEventArgs e)
         {
             AddMessage("LockWise AI",
