@@ -125,6 +125,7 @@ namespace part
 
         private async void BtnSend_Click(object sender, RoutedEventArgs e)
         {
+
             string userInput = txtUserInput.Text;
 
             if (string.IsNullOrWhiteSpace(userInput))
