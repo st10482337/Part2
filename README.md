@@ -1,4 +1,4 @@
-LockWise AI
+## LockWise AI
 
 LockWise AI is a WPF-based cybersecurity awareness chatbot developed in C#. The application was created to educate users about online safety through interactive conversations and helpful cybersecurity tips.
 
@@ -77,7 +77,7 @@ Developed by:
 Leander Matsane
 
 ## GitHub Repository
-
+https://github.com/st10482337/Part2.git
 
 ## Purpose of the Project
 
