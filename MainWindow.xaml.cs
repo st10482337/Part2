@@ -192,6 +192,7 @@ namespace part
 
         private void txtUserInput_KeyDown(object sender, KeyEventArgs e)
         {
+
             if (e.Key == Key.Enter)
             {
                 BtnSend_Click(sender, e);
