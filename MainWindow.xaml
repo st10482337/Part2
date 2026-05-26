@@ -104,6 +104,7 @@
                         <TextBlock Text="LockWise: Hello! Welcome to LockWise AI. What is your name?."
                                    Foreground="White"
                                    FontSize="16"
+                              
                                    TextWrapping="Wrap"/>
 
                     </Border>
