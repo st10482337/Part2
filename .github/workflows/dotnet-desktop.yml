@@ -2,13 +2,13 @@ name: .NET CI
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
 jobs:
   build:
- 
+
     runs-on: windows-latest
 
     steps:
@@ -20,7 +20,7 @@ jobs:
         dotnet-version: 8.0.x
 
     - name: Restore dependencies
-      run: dotnet restore ./part.csproj
+      run: dotnet restore
 
     - name: Build project
-      run: dotnet build ./part.csproj --no-restore
+      run: dotnet build --no-restore
